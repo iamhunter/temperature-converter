@@ -1,6 +1,6 @@
 {
     "name": "@iamhunter/temperature-converter",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A simple and flexible temperature converter for Node.js and the browser, with support for a wide range of temperature scales, including Celsius, Fahrenheit, Kelvin, and Newton.",
     "repository": {
         "type": "git",
