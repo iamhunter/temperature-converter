@@ -1,0 +1,36 @@
+{
+    "name": "@iamhunter/temperature-converter",
+    "version": "1.0.1",
+    "description": "A simple and flexible temperature converter for Node.js and the browser, with support for a wide range of temperature scales, including Celsius, Fahrenheit, Kelvin, and Newton.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iamhunter/temperature-converter"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "keywords": [
+        "temperature",
+        "converter",
+        "thermodynamics"
+    ],
+    "author": "Andrew Hunter",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^29.5.0",
+        "@types/node": "^18.15.5",
+        "jest": "^29.5.0",
+        "ts-jest": "^29.0.5",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.2"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "transform": {
+            "^.+\\.tsx?$": "ts-jest"
+        }
+    }
+}
